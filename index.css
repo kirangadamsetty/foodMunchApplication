@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.nav-item1 {
+    color: white !important;
+    font-family: "Bree Serif";
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.nav-item1:hover {
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+
+.nav-item2 {
+    color: black !important;
+    font-family: "Bree Serif";
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.nav-item2:hover {
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+    transition: 0.7s;
+
+}
+
+.button-icon {
+    background-color: white;
+    border-width: 3px;
+    border-color: black !important;
+    border-radius: 15px;
+}
+
+.logo-image {
+    height: 70px;
+    width: 100px;
+}
+
+.nav-container {
+    padding: 10px !important;
+
+}
+
+
+
+.banner-bg-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100vw;
+    height: 100vh;
+    animation: modify 10s infinite;
+}
+
+
+
+@keyframes modify {
+    0% {
+        background-image: url("https://i0.wp.com/businessday.ng/wp-content/uploads/2020/09/Untitled-design-2020-09-25T170910.855.png?fit=700%2C400&ssl=1");
+    }
+
+    30% {
+        background-image: url("https://st2.depositphotos.com/3785099/7401/i/950/depositphotos_74013483-stock-photo-young-woman-cooking-in-kitchen.jpg");
+
+    }
+
+    50% {
+
+        background-image: url("https://static.nationalgeographic.co.uk/files/styles/image_3200/public/tryitnow_GettyImages-1127515284_HR.jpg?w=1600&h=900");
+    }
+
+    70% {
+        background-image: url("https://img.freepik.com/free-photo/chef-cooking-food-restaurant-kitchen_53876-67.jpg?w=2000");
+    }
+
+    100% {
+        background-image: url("https://redcliffelabs.com/myhealth/wp-content/uploads/2022/03/90.jpg");
+
+    }
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px white;
+}
+
+.banner-paragraph {
+    color: yellow;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+.menu-button {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 800;
+    border-color: black;
+    font-size: 20px;
+    border-width: 1px;
+    width: 130px;
+    height: 50px;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.order-button {
+    margin-left: 15px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 800;
+    border-color: black;
+    font-size: 20px;
+    border-width: 2px;
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.menu-button:hover {
+    box-shadow: 0px 0px 10px yellow !important;
+    transition: 1s;
+
+}
+
+
+
+.why-choose-us-bg {
+    background-color: red;
+    background-size: cover;
+    padding: 15px;
+}
+
+.choose-us-heading {
+    color: black;
+    font-family: "Bree Serif";
+    font-weight: 800;
+}
+
+.choose-paragraph {
+    color: yellow;
+    font-family: "Bree Serif";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.wcu-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+.wcu-card-paragraph {
+    color: red;
+    font-family: "Bree Serif";
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.unique-container {
+    margin-top: -60px;
+
+    background-color: red;
+    z-index: 10;
+}
+
+.wcu-card {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+.offers {
+    font-size: 30px;
+    color: yellow;
+
+}
+
+.explore-menu-heading {
+    background-color: transparent;
+    text-shadow: 0px 0px 10px white;
+    color: white;
+    font-family: "Bree Serif";
+    font-weight: 800;
+}
+
+.explore-menu-section {
+    background-image: url("https://img.freepik.com/premium-photo/food-table-top-view-free-space-your-text_187166-25767.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+.explore-card {
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+@media (min-width:768px) {
+    .wcu-card:hover {
+        transform: scale(1.3);
+        transition: 2s;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .explore-card:hover {
+        transform: scale(1.3);
+        transition: 2s ease;
+        position: absolute;
+        z-index: 10;
+    }
+}
+
+
+.explore-image {
+    border-radius: 20px;
+
+}
+
+.card-heading {
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+    font-family: "Bree Serif";
+}
+
+.link-ele {
+    font-weight: 400;
+    color: blue;
+}
+
+.healthy-food-section {
+    background-color: black;
+    background-size: cover;
+    padding: 10px;
+    background-attachment: fixed;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    animation: change 5s infinite;
+}
+
+.healthy-food-section-img {
+    margin-left: 10px;
+    width: 100%;
+    border-radius: 100px;
+    margin: 15px;
+    border: none;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    border-color: black;
+    padding-left: 22px;
+    animation: change 5s infinite;
+}
+
+
+@keyframes change {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.healthy-food-section-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: red;
+
+}
+
+.healthy-food-section-description {
+    font-family: "Bree Serif";
+    font-weight: 400;
+    color: yellow;
+
+
+}
+
+.custom-button {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 800;
+    border-color: white;
+    font-size: 20px;
+    border-width: 1px;
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+
+
+}
+
+.delivery-and-payment-section {
+    background-color: red;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+
+
+.delivery-and-payment-section-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: black;
+}
+
+.delivery-and-payment-section-description {
+    font-family: "Bree Serif";
+    font-weight: 400;
+    color: yellow;
+}
+
+.payment-card-img {
+    background-color: black;
+    border-radius: 10px;
+    width: 60px;
+    height: 50px;
+    margin-right: 28px;
+    transition: 0.5s ease;
+}
+
+.payment-card-img:hover {
+    box-shadow: 0px 0px 10px black;
+    transform: rotate(10deg) !important;
+}
+
+.custom-button {
+    color: white;
+    background-color: green;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.thanking-customers-section {
+    background-size: cover;
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-simple-atmosphere-black-gold-tone-vouchers-picture-image_1042127.jpg");
+    background-attachment: fixed;
+
+}
+
+.thanking-customers-section-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: red;
+}
+
+.thanking-customers-section-description {
+    font-family: "Bree Serif";
+    font-weight: 400;
+    color: yellow;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+    animation: Shake 0.5s infinite;
+}
+
+
+
+@keyframes Shake {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    25% {
+        transform: rotate(-6deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(-6deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.custom-button {
+    color: black;
+    background-color: #d0b200;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.follow-us-section {
+    background-color: red;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    color: black;
+}
+
+
+.icon {
+    color: black;
+    font-size: 35px;
+}
+
+
+
+.footer-section {
+    background-image: url("https://img.freepik.com/premium-photo/food-table-top-view-free-space-your-text_187166-25767.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer-section-mail-id {
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: red;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu-card-heading {
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: "Bree-serif";
+    text-align: center;
+    background-color: black;
+}
+
+.menu-head {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Bree-serif";
+}
+
+.menu-card-bg {
+    background-size: cover;
+    padding: 10px;
+    background-image: url("https://img.freepik.com/premium-photo/assorted-indian-recipes-food-various_79295-7226.jpg?w=996");
+    min-height: 100vh;
+
+}
+
+@media screen and (min-width:992px) {
+    .menu-button2 {
+        width: 250px;
+        height: 60px;
+    }
+
+
+}
+
+
+.menu-list-items {
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Bree-serif";
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.price {
+    font-weight: 600;
+    color: yellow;
+}
+
+@media screen and (max-width : 576px) {
+    .price {
+        font-size: 10px;
+    }
+
+    .menu-list-items {
+        font-size: 10px;
+    }
+
+    .menu-card-heading {
+        font-size: 25px;
+    }
+
+    .menu-head {
+        font-size: 20px;
+    }
+
+}
+
+.menu-button2 {
+    font-weight: bold;
+    color: red;
+    font-family: "Roboto";
+    border-radius: 10px;
+    background-color: black;
+    padding: 4px;
+    border-width: 2px;
+}
+
+.biryani-bg {
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1685949482~exp=1685950082~hmac=3ace35fe101e77e6bf46fe7193796b482043462a449b84862ab4372f96cca2ed");
+
+}
+
+.roti-bg {
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1685949482~exp=1685950082~hmac=3ace35fe101e77e6bf46fe7193796b482043462a449b84862ab4372f96cca2ed");
+
+}
+
+.egg-bg {
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1685949482~exp=1685950082~hmac=3ace35fe101e77e6bf46fe7193796b482043462a449b84862ab4372f96cca2ed");
+
+}
+
+.soups-bg {
+    background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1685949482~exp=1685950082~hmac=3ace35fe101e77e6bf46fe7193796b482043462a449b84862ab4372f96cca2ed");
+
+
+}
